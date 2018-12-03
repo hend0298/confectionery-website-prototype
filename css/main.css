@@ -143,7 +143,25 @@ p {
     margin: 0 10rem;
   }
 
+  figure {
+    position: relative;
+  }
 
+  figcaption {
+    background-color: #747577;
+    border-radius: .5em;
+    color: #fff;
+    font-size: .80rem;
+    padding: .5em;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    width: 60%;
+  }
+
+  .small {
+    width: 40%;
+  }
 
 
 }
