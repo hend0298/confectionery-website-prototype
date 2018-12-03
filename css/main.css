@@ -22,17 +22,20 @@ body {
   margin: 0;
 }
 
-header, footer {
+header {
   background-color: #afb1b5;
+  padding: .5em;
+  padding-bottom: 0;
 }
 
 main {
-  margin: 1rem;
+  margin: 1em;
 }
 
 footer {
+  background-color: #afb1b5;
+  padding: 1em;
   text-align: center;
-  padding: 1rem;
 }
 
 header h1 {
@@ -46,16 +49,52 @@ a {
   text-decoration: none;
 }
 
+.btn:hover {
+  background-color: #747577;
+  color: #fff;
+}
+
+.btn {
+  padding: .25em;
+}
+
 nav ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 li {
   display: inline-block;
-
+  margin: .5em;
 }
 
 .img-flex {
-  display: inline;
-  width: 50%;
+  display: inline-block;
+  width: 100%;
+}
+
+figure {
+  margin: 1em;
+}
+
+figcaption {
+  text-align: center;
+}
+
+h2, p {
+  margin: .5em 0;
+}
+
+main, h2 {
+  margin-top: .5em;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+p {
+  font-size: .85rem;
 }
