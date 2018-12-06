@@ -107,7 +107,7 @@ p {
   }
 
   p {
-    margin-right: 3em;
+    margin-right: 6em;
   }
 
 }
@@ -182,7 +182,15 @@ p {
   }
 
   p {
-    margin: 0 100rem;
+    margin: 0 20rem;
+  }
+
+  figcaption {
+    width: 45%;
+  }
+
+  .small {
+    width: 30%;
   }
 
 }
