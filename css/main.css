@@ -165,18 +165,13 @@ p {
 
   header {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
     padding: .5em;
-  }
-
-  nav ul {
-    text-align: right;
   }
 
   h1 {
     text-align: left;
   }
-
 
 }
