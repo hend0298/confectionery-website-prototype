@@ -154,13 +154,28 @@ p {
     font-size: .80rem;
     padding: .5em;
     position: absolute;
-    right: 1em;
-    bottom: 1em;
+    right: .75em;
+    bottom: .75em;
     width: 60%;
   }
 
   .small {
     width: 40%;
+  }
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: .5em;
+  }
+
+  nav ul {
+    text-align: right;
+  }
+
+  h1 {
+    text-align: left;
   }
 
 
