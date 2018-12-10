@@ -58,7 +58,7 @@ a {
 }
 
 .btn {
-  border-radius: 8px;
+  border-radius: .5em;
   border-color: #afb1b5;
   border-style: solid;
   border-width: 2px;
@@ -76,9 +76,8 @@ a {
   color: #fff;
 }
 
-div {
+.see-more {
   text-align: center;
-
 }
 
 nav ul {
